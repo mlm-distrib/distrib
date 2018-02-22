@@ -1,0 +1,17 @@
+{
+  "name": "flex_mlm_service_distrib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+	"install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "winser": "^1.0.3"
+  }
+}
